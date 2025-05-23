@@ -1,7 +1,10 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 
-const App = () => <h1>Hello, world!</h1>;
+import "./index.css"
+import { Content } from './profile';
+
+const App = () => <Content />;
 
 const root = createRoot(document.getElementById('root')!);
 root.render(<App />);
