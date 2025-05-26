@@ -11,8 +11,16 @@ export const Content: React.FC = () => {
           Software Engineer | Full Stack Developer
         </p>
         <p className="text-sm text-gray-500">
-          📧 prabhumns@alumni.iitm.ac.in | 📧 prabhumns123@gmail.com | 📞
-          +91-9791168059
+          <span className="mx-2">
+            <a href="mailto:prabhumns@alumni.iitm.ac.in">📧 </a>
+            prabhumns@alumni.iitm.ac.in
+          </span>
+          |
+          <span className="mx-2">
+            <a href="mailto:prabhumns123@gmail.com">📧 </a>
+            prabhumns123@gmail.com
+          </span>
+          |<span className="mx-2"><a href="tel:+919791168059">📞 +91-9791168059</a></span>
         </p>
         <div className="mt-3 flex flex-wrap justify-center gap-4">
           <a
