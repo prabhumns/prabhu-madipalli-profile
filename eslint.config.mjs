@@ -64,7 +64,16 @@ export default defineConfig([
     },
 
     rules: {
-      'import/no-internal-modules': ['error', { allow: ['react-dom/client'] }],
+      'import/no-internal-modules': [
+        'error',
+        {
+          allow: [
+            'react-dom/client',
+            '@cloudscape-design/**',
+            '@typescript-eslint/**',
+          ],
+        },
+      ],
       'import/no-relative-parent-imports': 'error',
       'react/react-in-jsx-scope': 'off',
       'react/prop-types': 'off',
